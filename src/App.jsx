@@ -26,22 +26,22 @@ function App() {
           <>
             <SEO
               path="/"
-              title="Remote MCA Outbound Talent | Outbound Funding Specialists | From $1,000/mo | ISO Bench"
-              description="Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Remote-ready Outbound Funding Specialists. Weekly drops. Sustained dial capacity. Zero placement fees."
-              keywords="remote MCA recruiting, virtual MCA sales floor, pre-vetted remote MCA talent, commission-only ISO reps, remote MCA appointment setters, outbound funding specialists, virtual high-volume dialers, dial-pressure resilience, outbound continuity"
+              title="Video-Vetted MCA Outbound Talent | Weekly Drops | From $1,000/mo | ISO Bench"
+              description="Replace $5K-$20K placement fees with fixed-cost MCA outbound hiring. Weekly drops of video-vetted Outbound Funding Specialists. Sustained dial capacity. Zero placement fees."
+              keywords="MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, MCA talent sourcing, fixed-cost MCA recruiting, weekly candidate drops, video vetted sales reps, dial-pressure resilience"
               type="website"
               jsonLd={{
                 '@context': 'https://schema.org',
                 '@type': 'Product',
-                name: 'ISO Bench: Remote MCA Talent Logistics Utility',
+                name: 'ISO Bench: Video-Vetted MCA Outbound Bench',
                 description:
-                  'Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Remote-ready Outbound Funding Specialists. 90-120 second video auditions verify dial-pressure resilience. Unlimited hires. Zero placement fees.',
+                  'Replace $5K-$20K placement fees with fixed-cost MCA outbound hiring. Video-vetted Outbound Funding Specialists for remote, hybrid, or in-office teams. 90-120 second video auditions verify dial-pressure resilience. Unlimited hires. Zero placement fees.',
                 brand: {
                   '@type': 'Brand',
                   name: 'ISO Bench',
                 },
                 category: 'Fixed-Cost MCA Recruiting Services',
-                keywords: 'remote MCA recruiting, virtual MCA sales floor, outbound funding specialists, dial-pressure resilience, outbound continuity',
+                keywords: 'MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, video auditions, dial-pressure resilience, weekly drops',
                 offers: {
                   '@type': 'Offer',
                   price: '1000',
@@ -66,7 +66,7 @@ function App() {
                 },
                 audience: {
                   '@type': 'Audience',
-                  audienceType: 'MCA companies hiring remote outbound funding specialists',
+                  audienceType: 'MCA companies hiring outbound funding specialists',
                 },
               }}
             />
@@ -96,9 +96,9 @@ function App() {
             <>
               <SEO
                 path="/schedule"
-                title="See This Week's Remote MCA Bench | Outbound Funding Specialists | ISO Bench"
-                description="15 minutes. Watch video auditions from Remote-Ready Outbound Funding Specialists. Verify dial-pressure resilience and objection handling before you interview. Draft the best. Dominate tomorrow."
-                keywords="MCA outbound demo, MCA setter demo, MCA sales bench, vetted MCA talent, MCA recruiting, merchant cash advance staffing, outbound funding specialist"
+                title="See This Week's MCA Bench | Watch The Tape | ISO Bench"
+                description="15 minutes. Watch video auditions from Outbound Funding Specialists. Verify dial-pressure resilience and objection handling. Draft the best. Hire faster."
+                keywords="MCA outbound demo, MCA setter demo, MCA sales bench, vetted MCA talent, MCA recruiting, merchant cash advance staffing, outbound funding specialist, video auditions"
               />
               <Navbar />
               <main>

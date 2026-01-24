@@ -35,10 +35,13 @@ export default function StickyCTA() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
-            <p className="text-xs font-bold text-emerald-300 uppercase tracking-wider">Outbound Inventory: Every Monday</p>
+              <p className="text-xs font-bold text-emerald-300 uppercase tracking-wider">Weekly Drops: Every Monday</p>
           </div>
           <p className="font-bold text-sm md:text-base text-slate-100">
             Weekly drop: Monday @ 9 AM & 2 PM EST.
+          </p>
+          <p className="text-xs text-slate-400">
+            From $1,000/mo + Bench Activation Fee.
           </p>
         </div>
 

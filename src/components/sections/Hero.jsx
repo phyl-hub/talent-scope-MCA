@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2, Play, Lock, Zap, Video, Flame, TrendingUp, ShieldCheck } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Lock, Flame, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import CandidateRow from '../ui/CandidateRow';
 
@@ -14,29 +14,29 @@ export default function Hero() {
             {/* Top Tagline */}
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 text-emerald-400 px-4 py-1.5 rounded-full text-sm font-bold border border-emerald-500/20">
               <Flame size={14} className="fill-emerald-400 text-emerald-400" />
-              Remote-First MCA Talent. Delivered Weekly.
+              Video-vetted MCA outbound talent. Weekly drops. Zero placement fees.
             </div>
 
             <div>
               <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-100 leading-[1.1] mb-6">
                 Your Fixed-Cost<br/>
-                <span className="text-emerald-400">Remote Bench</span><br/>
-                for MCA shops.
+                <span className="text-emerald-400">Talent Bench</span><br/>
+                for MCA sales floors.
               </h1>
-                <p className="text-lg text-slate-300 mb-4 leading-relaxed max-w-lg">Access a vetted bench of <strong>Outbound Funding Specialists</strong> so empty seats never slow dial capacity.
+                <p className="text-lg text-slate-300 mb-4 leading-relaxed max-w-lg">Watch short video auditions. Stack the best reps. Hire directly—<strong>no placement fees</strong>.
                 </p>
               <div className="space-y-3 mb-8 text-base text-slate-300">
                 <p className="flex items-start gap-3">
                   <CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />
-                  <span className="font-bold"><strong>Weekly Inventory:</strong> Remote-ready outbound specialists.</span>
+                  <span className="font-bold"><strong>Weekly Inventory:</strong> Fresh candidates released every Monday.</span>
                 </p>
                 <p className="flex items-start gap-3">
                   <CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />
-                  <span className="font-bold"><strong>Video Auditions:</strong> Verify dial-pressure resilience.</span>
+                  <span className="font-bold"><strong>Video Auditions:</strong> Verify dial-pressure resilience before interview.</span>
                 </p>
                 <p className="flex items-start gap-3">
                   <CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />
-                  <span className="font-bold"><strong>Fixed Cost:</strong> Flat monthly fee. Month-to-month.</span>
+                  <span className="font-bold"><strong>Fixed Cost:</strong> Bench Activation Fee + flat monthly. Unlimited hires, zero placement fees.</span>
                 </p>
               </div>
             </div>
@@ -74,6 +74,25 @@ export default function Hero() {
             <p className="text-sm text-slate-400 mt-3">
               Month-to-month. Cancel anytime. Weekly Inventory Drops.
             </p>
+
+            {/* Trust Module */}
+            <div className="mt-6 bg-slate-900/40 border border-slate-800 rounded-2xl p-5">
+              <div className="text-sm font-bold text-slate-100 mb-3">What you’ll see in the free preview</div>
+              <div className="grid sm:grid-cols-3 gap-3 text-sm text-slate-300">
+                <div className="bg-slate-950/40 border border-slate-800 rounded-xl p-3">
+                  <div className="text-slate-100 font-semibold mb-1">The Tape</div>
+                  <div>90–120s video auditions to judge phone presence fast.</div>
+                </div>
+                <div className="bg-slate-950/40 border border-slate-800 rounded-xl p-3">
+                  <div className="text-slate-100 font-semibold mb-1">Scorecard</div>
+                  <div>Clear signals: objection-handling, pacing, readiness.</div>
+                </div>
+                <div className="bg-slate-950/40 border border-slate-800 rounded-xl p-3">
+                  <div className="text-slate-100 font-semibold mb-1">How stacking works</div>
+                  <div>See the workflow for contacting and drafting replacements.</div>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Right Column: The Bench Visual */}
@@ -81,19 +100,30 @@ export default function Hero() {
             {/* Background Blob */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-emerald-500/10 rounded-full blur-3xl opacity-60 -z-10"></div>
 
-            {/* Main Video Card */}
-            <div className="absolute top-0 right-0 w-[420px] h-[300px] rounded-2xl overflow-hidden shadow-2xl shadow-black/40 z-0 transform rotate-2 hover:rotate-0 transition duration-500 group cursor-pointer border border-slate-800">
-              <img 
-                src="/images/high-energy-sdr-team.jpg" 
-                alt="Remote financial services sales floor"
+            {/* Portal Preview Card (not a fake video) */}
+            <Link
+              to="/schedule"
+              className="absolute top-0 right-0 w-[420px] h-[300px] rounded-2xl overflow-hidden shadow-2xl shadow-black/40 z-0 transform rotate-2 hover:rotate-0 transition duration-500 group border border-slate-800"
+              aria-label="Preview the ISO Bench portal"
+            >
+              <img
+                src="/images/high-energy-sdr-team.jpg"
+                alt="ISO Bench portal preview"
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-700 filter brightness-75"
+                loading="lazy"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-16 h-16 bg-slate-950/50 backdrop-blur-sm rounded-full flex items-center justify-center border border-slate-700 shadow-lg group-hover:scale-110 transition">
-                  <Play size={32} fill="white" className="text-white ml-1" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/25 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between gap-4">
+                <div>
+                  <div className="text-xs font-bold uppercase tracking-wider text-emerald-300">Portal Preview</div>
+                  <div className="text-slate-100 font-black text-lg leading-tight">See how The Tape + stacking works</div>
+                </div>
+                <div className="shrink-0 inline-flex items-center gap-2 bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold px-4 py-2 rounded-xl transition shadow-lg shadow-emerald-500/10">
+                  Preview
+                  <ArrowRight size={18} />
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* Floating Bench UI */}
             <div className="absolute bottom-12 left-0 w-[380px] z-10">
@@ -108,23 +138,23 @@ export default function Hero() {
                   </div>
                   <div className="px-3 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-bold rounded-full uppercase tracking-wider flex items-center gap-1 border border-emerald-500/20">
                     <Lock size={10} />
-                    Your Outbound Inventory
+                    Your Bench
                   </div>
                 </div>
 
                 {/* Candidate List */}
                 <div className="space-y-2.5 relative">
-                  <CandidateRow name="Marcus Torres" role="Outbound Specialist • Bilingual" score={8.1} />
+                  <CandidateRow name="Candidate A" role="Outbound Specialist" score={8.1} />
                   
                   {/* Active Candidate with Popover */}
                   <div className="relative">
-                    <CandidateRow name="Enterprise Only:" role="Elite access (Score ≥ 8.5). Upgrade to unlock." score={9.5} />
+                    <CandidateRow name="Candidate (Elite)" role="Enterprise only preview" score={9.5} />
                     <div className="absolute -right-2 -top-2 bg-emerald-400 text-slate-950 text-[10px] font-black px-2 py-1 rounded-full shadow-lg">
                       TOP
                     </div>
                   </div>
 
-                  <CandidateRow name="Enterprise Only:" role="Elite access (Score ≥ 8.5). Upgrade to unlock." score={8.6} />
+                  <CandidateRow name="Candidate (Elite)" role="Enterprise only preview" score={8.6} />
                 </div>
               </div>
             </div>
@@ -132,15 +162,32 @@ export default function Hero() {
           
           {/* Mobile Fallback */}
           <div className="lg:hidden space-y-6">
-            <div className="relative rounded-xl overflow-hidden shadow-lg border border-slate-800">
-              <img src="/images/high-energy-sdr-team.jpg" className="w-full h-48 object-cover" alt="MCA sales floor" />
-              <div className="absolute inset-0 flex items-center justify-center bg-slate-950/30">
-                <Play size={40} fill="white" className="text-white" />
+            <Link
+              to="/schedule"
+              className="relative rounded-xl overflow-hidden shadow-lg border border-slate-800 block"
+              aria-label="Preview the ISO Bench portal"
+            >
+              <img
+                src="/images/high-energy-sdr-team.jpg"
+                className="w-full h-48 object-cover"
+                alt="ISO Bench portal preview"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/25 to-transparent" />
+              <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-3">
+                <div className="text-left">
+                  <div className="text-[11px] font-bold uppercase tracking-wider text-emerald-300">Portal Preview</div>
+                  <div className="text-slate-100 font-black">See The Tape</div>
+                </div>
+                <div className="inline-flex items-center gap-2 bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold px-3 py-2 rounded-xl transition">
+                  Preview
+                  <ArrowRight size={18} />
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="bg-slate-900/60 rounded-xl shadow-xl border border-slate-800 p-5">
-              <CandidateRow name="Enterprise Only:" role="Elite access (Score ≥ 8.5). Upgrade to unlock." score={9.8} />
-              <CandidateRow name="Enterprise Only:" role="Elite access (Score ≥ 8.5). Upgrade to unlock." score={9.4} />
+              <CandidateRow name="Candidate (Elite)" role="Enterprise only preview" score={9.8} />
+              <CandidateRow name="Candidate (Elite)" role="Enterprise only preview" score={9.4} />
             </div>
           </div>
 

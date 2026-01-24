@@ -3,12 +3,29 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqs = [
   {
     id: 'faq-agency-difference',
-    question: "What exactly is a 'Talent Logistics' platform?",
+    question: "How is ISO Bench different from a recruiter?",
     answer: (
       <>
-        <p className="mb-3">Traditional recruiting is a <strong>search</strong>. ISO Bench is a <strong>supply chain</strong>.</p>
+        <p className="mb-3">Traditional recruiting is a <strong>search</strong>. ISO Bench is a <strong>bench</strong> you can draft from every week.</p>
         <p className="mb-3">Instead of paying <strong>$5K–$20K</strong> every time you hire (variable cost that spikes your <strong>CAC</strong>), you pay a <strong>fixed monthly subscription</strong> for continuous access to video-vetted outbound talent.</p>
-        <p>We treat sales talent as <strong>inventory</strong>—ready to be drafted the moment a seat opens on your floor.</p>
+        <p>When a seat opens, you already have candidates ready—so you can replace churn without starting over.</p>
+      </>
+    )
+  },
+  {
+    id: 'faq-industries',
+    question: "What industry do you serve?",
+    answer: (
+      <p>We specialize exclusively in <strong>Merchant Cash Advance (MCA)</strong>. High-turnover, high-velocity virtual sales floors that need Outbound Funding Specialists with sustained dial capacity and real-time objection handling skills.</p>
+    )
+  },
+  {
+    id: 'faq-industry-match',
+    question: "Do candidates need MCA experience?",
+    answer: (
+      <>
+        <p className="mb-3"><strong>Not necessarily.</strong> Outbound Funding Specialists can ramp into your box quickly. What you can’t teach is dial-pressure resilience and objection handling under rejection.</p>
+        <p>We source commission-hungry outbound specialists from adjacent short-cycle industries (Debt Settlement, Solar, Insurance) who thrive under pressure.</p>
       </>
     )
   },
@@ -17,14 +34,28 @@ const faqs = [
     question: "What does the subscription deliver?",
     answer: (
       <>
-        <p className="mb-4">A fixed-cost subscription that gives you continuous access to weekly inventory drops and a private bench you build via stacking.</p>
+        <p className="mb-4">A fixed-cost subscription that gives you continuous access to weekly drops and a private bench you build via stacking.</p>
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Weekly Drops:</strong> Fresh candidates released each week (typically Monday @ <strong>2 PM EST</strong> for Growth Core and Monday @ <strong>9 AM EST</strong> for Enterprise Scale).</li>
           <li><strong>Stacking Capacity:</strong> Growth Core can stack up to <strong>20</strong> candidates; Enterprise Scale can stack up to <strong>50</strong> candidates.</li>
-          <li><strong>The Tape:</strong> Mandatory <strong>90–120s</strong> video auditions ("The Tape Don't Lie") assessed against our Core 5 scorecard.</li>
+          <li><strong>The Tape:</strong> Mandatory <strong>90–120s</strong> video auditions assessed against our <strong>5-Point Scorecard</strong>.</li>
           <li><strong>Unlimited Hires:</strong> Hire as many reps as you want with <strong>$0 placement fees</strong>.</li>
           <li><strong>Billing:</strong> Month-to-month. Cancel anytime.</li>
         </ul>
+      </>
+    )
+  },
+  {
+    id: 'faq-activation-fee',
+    question: "What is the Bench Activation Fee and why does it exist?",
+    answer: (
+      <>
+        <p className="mb-3"><strong>Bench Activation Fee</strong> is the one-time fee that turns on platform access (it’s setup + provisioning, not a per-hire service fee).</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Growth Core:</strong> $2,000 Bench Activation Fee</li>
+          <li><strong>Enterprise Scale:</strong> $4,000 Bench Activation Fee</li>
+        </ul>
+        <p className="mt-3">It covers account provisioning, system setup, and licensing of proprietary vetting data so you can unlock Candidate contact info and The Tape the moment you stack.</p>
       </>
     )
   },
@@ -36,9 +67,29 @@ const faqs = [
         <p className="mb-3"><strong>The Drop</strong> is our weekly release of fresh, video-vetted candidates into the ISO Bench portal.</p>
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Enterprise Scale:</strong> Monday @ <strong>9:00 AM EST</strong> (priority access)</li>
-          <li><strong>Growth Core:</strong> Monday @ <strong>2:00 PM EST</strong></li>
+          <li><strong>Growth Core:</strong> Monday @ <strong>2:00 PM EST</strong> (later drop)</li>
         </ul>
-        <p className="mt-3">Enterprise Scale also includes access to <strong>Elite</strong> candidates (Score <strong>≥ 8.5</strong>), which are not available on Growth Core.</p>
+        <p className="mt-3">Enterprise Scale also includes access to <strong>Elite</strong> candidates (scored <strong>≥ 8.5</strong>), which are not available on Growth Core.</p>
+      </>
+    )
+  },
+  {
+    id: 'faq-placement-fees',
+    question: "Are there any placement fees?",
+    answer: (
+      <>
+        <p className="mb-3">None. Hire one rep or build a full floor—your cost remains a <strong>flat monthly subscription</strong>.</p>
+        <p>We exist to keep your talent cost <strong>fixed</strong> and your <strong>CAC predictable</strong>, even through turnover.</p>
+      </>
+    )
+  },
+  {
+    id: 'faq-stack-refresher',
+    question: "What is the Enterprise 'Stack Refresher'?",
+    answer: (
+      <>
+        <p className="mb-3"><strong>Coming soon:</strong> We plan to offer Enterprise customers a limited ability to <strong>refresh a capped number of locked stacks per month</strong> (target: up to 5) to keep benches fresh.</p>
+        <p className="text-sm text-slate-400">Availability and limits are subject to what is enabled in the portal at the time. Designed for 10+ seat floors where speed-to-dial matters and you can’t afford stale inventory.</p>
       </>
     )
   },
@@ -50,7 +101,7 @@ const faqs = [
         <p className="mb-3"><strong>Stacking</strong> is how you claim a candidate into your bench. When you click “Stack to My Bench,” the candidate moves into your private portal and their contact details are revealed.</p>
         <p className="mb-3"><strong>What it unlocks:</strong> Email/phone plus any optional supplemental info the candidate provided (resume and/or LinkedIn profile).</p>
         <p className="mb-3"><strong>Plan limits:</strong> Growth Core can have up to <strong>20</strong> active stacks; Enterprise Scale can have up to <strong>50</strong> active stacks.</p>
-        <p>Stacking is the operational insurance: when turnover hits, you draft a replacement fast—no new recruiter fee cycle, no downtime.</p>
+        <p>Stacking is the safety net: when turnover hits, you draft a replacement fast—no new recruiter fee cycle, less downtime.</p>
       </>
     )
   },
@@ -71,12 +122,13 @@ const faqs = [
       <>
         <p className="mb-3">To protect candidates from being overwhelmed and to keep a premium experience for clients, each candidate can be stacked by a maximum of <strong>5</strong> companies.</p>
         <p>Once the 5th company stacks a candidate, they may be removed from new stacking availability in the marketplace.</p>
+        <p className="mt-3">This keeps response rates high and prevents the same candidate from being spammed by dozens of shops at once.</p>
       </>
     )
   },
   {
     id: 'faq-vetting-standard',
-    question: "What is 'The Tape'? (The 'Tape Don't Lie' promise)",
+    question: "What is 'The Tape'?",
     answer: (
       <>
         <p className="mb-3">Resumes don’t predict phone performance in high-velocity MCA outbound. <strong>The Tape</strong> does.</p>
@@ -86,9 +138,9 @@ const faqs = [
           <li><strong>Communication Fluency & Pacing</strong> (20%) — Clear, authoritative communication on outbound calls.</li>
           <li><strong>Executive Presence & Authority</strong> (20%) — Must project confidence and control conversations.</li>
           <li><strong>Incentive Alignment</strong> (20%) — Intrinsic motivation in variable-pay, high-velocity outbound environments.</li>
-          <li><strong>Operational Readiness</strong> (10%) — Immediate technical proficiency; zero ramp-up. Remote-ready.</li>
+          <li><strong>Operational Readiness</strong> (10%) — Immediate technical proficiency and day-one dial readiness.</li>
         </ul>
-        <p className="mt-3">We prioritize <strong>thick-skinned</strong> candidates over those with finance degrees. We can teach MCA in 20 minutes—we can't teach grit.</p>
+        <p className="mt-3">We prioritize dial-pressure resilience and coachability over "perfect" resumes. MCA can be trained—grit usually can’t.</p>
       </>
     )
   },
@@ -103,32 +155,34 @@ const faqs = [
     )
   },
   {
-    id: 'faq-placement-fees',
-    question: "Are there any placement fees?",
+    id: 'faq-us-based',
+    question: "Are candidates remote-ready? Do you hire nation-wide?",
     answer: (
       <>
-        <p className="mb-3">None. Hire one rep or build a full floor—your cost remains a <strong>flat monthly subscription</strong>.</p>
-        <p>We exist to keep your talent cost <strong>fixed</strong> and your <strong>CAC predictable</strong>, even through turnover.</p>
+        <p className="mb-3">Yes—we source <strong>nation-wide</strong> and support <strong>remote</strong>, <strong>hybrid</strong>, and <strong>in-office</strong> hiring.</p>
+        <p className="mb-3">Every candidate is screened for <strong>Operational Readiness</strong> (phone presence, objection handling, and CRM fluency). Then you filter for fit: work style, time zone, hours, and start date.</p>
+        <p>Most clients shortlist based on The Tape + scorecard first, then match logistics second. We make that part easy too.</p>
       </>
     )
   },
   {
-    id: 'faq-us-based',
-    question: "Are these candidates remote-ready? Are they US-based?",
+    id: 'faq-hubs',
+    question: "Do you have candidates in Miami, New York, and Los Angeles?",
     answer: (
       <>
-        <p className="mb-3">Yes—remote-first. Every candidate is vetted for <strong>Remote Readiness</strong>: a quiet workspace, reliable high-speed internet, and the discipline to operate inside a CRM workflow.</p>
-        <p>We source global talent with near-native English who work <strong>US hours</strong>. Some candidates are US-based, others are international—what matters is dial performance and operational reliability.</p>
+        <p className="mb-3">Yes. While we source <strong>nation-wide</strong>, we consistently recruit from the three largest MCA markets: <strong>Miami</strong>, <strong>New York</strong>, and <strong>Los Angeles</strong>.</p>
+        <p className="text-sm text-slate-400">Every profile includes location/time zone so local shops can filter quickly.</p>
       </>
     )
   },
   {
     id: 'faq-candidate-location-preferences',
-    question: "Do you provide where candidates live and whether they prefer remote / hybrid / office (or relocation)?",
+    question: "Do you provide time zone and start-date info?",
     answer: (
       <>
-        <p className="mb-3">Yes. Candidate profiles include practical operating details like <strong>location/time zone</strong>, stated <strong>work-style preference</strong> (remote / hybrid / in-office), and whether they are <strong>willing to relocate</strong> (if applicable).</p>
-        <p>That said, ISO Bench is built <strong>remote-first</strong>. Our vetting and the core economics of the model are designed around remote outbound operators who can perform from anywhere on US hours.</p>
+        <p className="mb-3">Yes. Every profile includes <strong>time zone</strong> and <strong>availability to start</strong> so you can move fast once you stack.</p>
+        <p className="mb-3">If you care about it, we also capture practical constraints that affect production (preferred working hours and remote/hybrid/in-office preference).</p>
+        <p className="text-sm text-slate-400">Most MCA shops win by hiring the best phone presence first, then matching logistics second.</p>
       </>
     )
   },
@@ -148,6 +202,7 @@ const faqs = [
     answer: (
       <>
         <p className="mb-3"><strong>Fast.</strong> Once you stack a candidate, contact details are unlocked and you can move directly to interview and onboarding.</p>
+        <p className="mb-3">Speed beats search. In MCA, an empty seat can cost <strong>$500–$1,000/day</strong> in lost opportunity—one month of ISO Bench often costs less than a few days of downtime.</p>
         <p>The industry churns too fast to wait for the "perfect" resume. <strong>Hire for energy and grit, then point them at the dialer.</strong></p>
       </>
     )
@@ -167,25 +222,31 @@ const faqs = [
     question: "Who handles background checks and final employment compliance?",
     answer: (
       <>
-        <p className="mb-3">ISO Bench is your <strong>Fixed-Cost MCA Talent Logistics Utility</strong>, focused on delivering Remote-Ready Outbound Funding Specialists.</p>
+        <p className="mb-3">ISO Bench is a fixed-cost platform focused on delivering vetted Outbound Funding Specialists for remote, hybrid, or in-office teams.</p>
         <p><strong>Final compliance</strong> remains the client's responsibility: background checks, required disclosures, and employment verification.</p>
       </>
     )
   },
   {
-    id: 'faq-industries',
-    question: "What industry do you serve?",
+    id: 'faq-cancel-lapse',
+    question: "What happens if I cancel or miss a payment?",
     answer: (
-      <p>We specialize exclusively in <strong>Merchant Cash Advance (MCA)</strong>. High-turnover, high-velocity virtual sales floors that need Outbound Funding Specialists with sustained dial capacity and real-time objection handling skills.</p>
+      <>
+        <p className="mb-3"><strong>Immediate suspension:</strong> Platform access and Stack visibility are suspended immediately upon cancellation or non-payment.</p>
+        <p className="mb-3"><strong>30-day churn rule:</strong> If the account remains inactive for thirty (30) days, your Stacked data is permanently forfeited.</p>
+        <p className="mb-3"><strong>Re-activation:</strong> After 30 days inactive, a new Bench Activation Fee is required to re-establish access.</p>
+        <p className="text-sm text-slate-400">Note: the 12-month Restricted Engagement Period still applies to Candidates introduced before cancellation.</p>
+      </>
     )
   },
   {
-    id: 'faq-industry-match',
-    question: "Do candidates need MCA experience?",
+    id: 'faq-buyout-clause',
+    question: "Can I hire someone I found on ISO Bench after cancelling?",
     answer: (
       <>
-        <p className="mb-3"><strong>Not necessarily.</strong> Outbound Funding Specialists can ramp into your box quickly. What you can’t teach is dial-pressure resilience and objection handling under rejection.</p>
-        <p>We source commission-hungry outbound specialists from adjacent short-cycle industries (Debt Settlement, Solar, Insurance) who thrive under pressure.</p>
+        <p className="mb-3">Introductions are proprietary. If you stack a Candidate, a <strong>12-month Restricted Engagement Period</strong> begins from that Stack date.</p>
+        <p className="mb-3">If you engage, hire, contract, or otherwise utilize the services of a Candidate during the Restricted Period <strong>without an active subscription</strong>, the Terms include a <strong>$7,500 USD</strong> Direct Placement Fee per Candidate (liquidated damages).</p>
+        <p className="text-sm text-slate-400">If you believe you had a documented prior relationship, notify legal@isobench.com within 24 hours of stacking.</p>
       </>
     )
   }
@@ -236,13 +297,12 @@ export default function FAQ() {
             FAQ
           </p>
           <h2 className="text-4xl md:text-5xl font-black text-slate-100 mb-5">
-            Questions Before You Subscribe
+            Questions MCA Operators Ask
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            No fluff. Just answers.
+            Fast answers on cost, speed-to-seat, and candidate quality.
           </p>
         </div>
-
         {/* FAQ List */}
         <div className="bg-slate-900/40 rounded-2xl p-6 md:p-8 border border-slate-800">
           {faqs.map((faq, index) => (
@@ -259,7 +319,7 @@ export default function FAQ() {
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
-          <p className="text-slate-400 mb-4">Still have questions?</p>
+          <p className="mb-3">ISO Bench is a fixed-cost platform focused on delivering vetted Outbound Funding Specialists.</p>
           <a
             href="mailto:sales@isobench.com"
             className="text-emerald-300 font-semibold hover:text-emerald-200 transition-colors duration-200"

@@ -21,10 +21,10 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-lg text-slate-300">
-            How we collect, use, and protect your data in our candidate pipeline service.
+            How we collect, use, and protect your data in our talent logistics utility.
           </p>
           <div className="mt-4 text-sm text-slate-500 font-medium uppercase tracking-wider">
-            Effective Date: January 1, 2025 | Last Updated: January 2025
+            Effective Date: January 8, 2026 | Last Updated: January 9, 2026
           </div>
           <p className="mt-4 text-sm text-emerald-300 font-bold">
             This Privacy Policy is legally binding. By using our service or submitting candidate data, you consent to these practices.
@@ -52,11 +52,11 @@ export default function PrivacyPolicy() {
 
           {/* 2. Categories of Data Collected */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">2. Data We Collect & Legal Basis</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">2. Data We Collect & Legal Basis</h2>
             
             <div className="space-y-6">
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">2.1 Candidate Personal Data</h3>
+                <h3 className="font-bold text-slate-100 mb-2">2.1 Candidate Personal Data</h3>
                 <p className="text-sm mb-3"><strong>Legally Collected From:</strong> Submitted applications, Loom recordings, and resume uploads.</p>
                 <ul className="list-disc pl-6 space-y-1 text-sm">
                   <li>Full name, email address, phone number</li>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">2.2 Biometric & Video Data (Special Category)</h3>
+                <h3 className="font-bold text-slate-100 mb-2">2.2 Biometric & Video Data (Special Category)</h3>
                 <p className="text-sm mb-3"><strong>CRITICAL DISCLOSURE:</strong> Your video submission contains biometric information under GDPR, CCPA, and state privacy laws.</p>
                 <ul className="list-disc pl-6 space-y-1 text-sm">
                   <li><strong>Video Recording:</strong> Your facial features, body language, and appearance</li>
@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">2.3 AI-Derived Data</h3>
+                <h3 className="font-bold text-slate-100 mb-2">2.3 AI-Derived Data</h3>
                 <p className="text-sm mb-3">We process your video using Large Language Models (LLMs) to generate:</p>
                 <ul className="list-disc pl-6 space-y-1 text-sm">
                   <li>Automated video transcriptions (using OpenAI Whisper or equivalent)</li>
@@ -94,12 +94,12 @@ export default function PrivacyPolicy() {
                   <li>Hiring compatibility scores</li>
                 </ul>
                 <p className="text-sm mt-3 text-slate-500">
-                  <strong>Note:</strong> AI scoring is automated but reviewed by human screeners before inclusion in the "Weekly Menu."
+                  <strong>Note:</strong> AI scoring is automated but reviewed by human screeners before inclusion in active ISO Bench inventory.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">2.4 Website & Usage Data</h3>
+                <h3 className="font-bold text-slate-100 mb-2">2.4 Website & Usage Data</h3>
                 <ul className="list-disc pl-6 space-y-1 text-sm">
                   <li>IP address, browser type, operating system</li>
                   <li>Pages visited, time spent on site</li>
@@ -112,12 +112,12 @@ export default function PrivacyPolicy() {
 
           {/* 3. How We Use Your Data */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">3. Use of Data & Legal Basis</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">3. Use of Data & Legal Basis</h2>
             <p className="mb-4">We process data under the following legal bases:</p>
             
             <div className="space-y-4 text-sm">
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">For Candidates:</p>
+                <p className="font-bold text-slate-100">For Candidates:</p>
                 <ul className="list-disc pl-6 space-y-1 mt-2">
                   <li><strong>Contract Performance:</strong> Process your application and coordinate with employers</li>
                   <li><strong>Legitimate Interest:</strong> Evaluate communication skills, energy, and sales fit</li>
@@ -127,7 +127,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">For Clients (Subscribers):</p>
+                <p className="font-bold text-slate-100">For Clients (Subscribers):</p>
                 <ul className="list-disc pl-6 space-y-1 mt-2">
                   <li>Deliver the weekly candidate pipeline (6–8 or 11–15 profiles)</li>
                   <li>Process subscription payments</li>
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">For All Users:</p>
+                <p className="font-bold text-slate-100">For All Users:</p>
                 <ul className="list-disc pl-6 space-y-1 mt-2">
                   <li>Website analytics and performance optimization</li>
                   <li>Fraud prevention and security</li>
@@ -149,11 +149,11 @@ export default function PrivacyPolicy() {
 
           {/* 4. Data Sharing & Third Parties */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">4. Data Sharing & Third-Party Processors</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">4. Data Sharing & Third-Party Processors</h2>
             
             <div className="space-y-6">
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">4.1 Candidates: Shared With Employers (Subscribers)</h3>
+                <h3 className="font-bold text-slate-100 mb-2">4.1 Candidates: Shared With Employers (Subscribers)</h3>
                 <p className="text-sm mb-3">
                   By submitting a video and resume, you explicitly authorize ISO Bench (operated by Talent Scope Group LLC) to share your profile with our paid subscribers. This is the core function of our service.
                 </p>
@@ -174,7 +174,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">4.2 Data Processors & Service Providers</h3>
+                <h3 className="font-bold text-slate-100 mb-2">4.2 Data Processors & Service Providers</h3>
                 <p className="text-sm mb-3">We use the following third-party services (Data Processors under GDPR Article 28):</p>
                 
                 <table className="w-full text-sm border-collapse">
@@ -220,7 +220,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">4.3 No Sale of Data</h3>
+                <h3 className="font-bold text-slate-100 mb-2">4.3 No Sale of Data</h3>
                 <p className="text-sm">
                   Talent Scope Group LLC does NOT sell, broker, or monetize candidate data independently. Your data is shared only with employers as part of our pipeline service.
                 </p>
@@ -230,13 +230,13 @@ export default function PrivacyPolicy() {
 
           {/* 5. Data Retention & Deletion */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">5. Data Retention & Deletion Rights</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">5. Data Retention & Deletion Rights</h2>
             
             <div className="space-y-4 text-sm">
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">5.1 Retention Schedule</h3>
+                <h3 className="font-bold text-slate-100 mb-2">5.1 Retention Schedule</h3>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li><strong>Active Circulation (Candidates in Pipeline):</strong> 12 months from submission. After 12 months, profiles are de-listed from the "Weekly Menu."</li>
+                  <li><strong>Active Circulation (Candidates in Pipeline):</strong> 12 months from submission. After 12 months, profiles are de-listed from active ISO Bench inventory.</li>
                   <li><strong>Video & Resume Storage:</strong> Retained for 24 months to support employer reference inquiries.</li>
                   <li><strong>Anonymized Data (AI Models):</strong> Retained indefinitely for training and performance analysis. We strip personally identifiable information (name, email, phone) but retain linguistic and outcome data.</li>
                   <li><strong>Client Payment Records:</strong> Retained for 7 years per IRS & state tax requirements.</li>
@@ -245,12 +245,12 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">5.2 Right to Deletion (Right to be Forgotten)</h3>
+                <h3 className="font-bold text-slate-100 mb-2">5.2 Right to Deletion (Right to be Forgotten)</h3>
                 <p className="mb-2">
                   You may request deletion of your personal data at any time by emailing legal@isobench.com. We will:
                 </p>
                 <ul className="list-disc pl-6 space-y-1 mb-3">
-                  <li>Delete your profile from the active "Weekly Menu" within 5 business days</li>
+                  <li>Delete your profile from active ISO Bench inventory within 5 business days</li>
                   <li>Delete your resume, contact info, and video links from our systems within 30 days</li>
                   <li>Request deletion from Loom Cloud (third-party) — note: Loom's retention may differ</li>
                 </ul>
@@ -260,7 +260,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-900 mb-2">5.3 Right to Data Portability</h3>
+                <h3 className="font-bold text-slate-100 mb-2">5.3 Right to Data Portability</h3>
                 <p>
                   You may request a machine-readable copy of your personal data in CSV or JSON format. Request via legal@isobench.com.
                 </p>
@@ -270,15 +270,15 @@ export default function PrivacyPolicy() {
 
           {/* 6. AI Processing & Automated Decisions */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">6. Automated Decision-Making & AI Transparency</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">6. Automated Decision-Making & AI Transparency</h2>
             
             <div className="space-y-4 text-sm">
               <p>
-                Under GDPR Article 22, we disclose that we use automated processing (LLM-based AI) to evaluate candidates. However, a human reviews all scores before your profile is included in the "Weekly Menu."
+                Under GDPR Article 22, we disclose that we use automated processing (LLM-based AI) to evaluate candidates. However, a human reviews all scores before your profile is included in active ISO Bench inventory.
               </p>
 
               <div className="bg-yellow-50 border border-yellow-200 p-4 rounded">
-                <p className="font-bold text-slate-900 mb-2">Your Rights Regarding AI Decisions:</p>
+                <p className="font-bold text-slate-100 mb-2">Your Rights Regarding AI Decisions:</p>
                 <ul className="list-disc pl-6 space-y-1">
                   <li>Right to know the basis of your score (you can request a detailed scoring explanation)</li>
                   <li>Right to human review if you believe the AI assessment was unfair</li>
@@ -294,26 +294,26 @@ export default function PrivacyPolicy() {
 
           {/* 7. Privacy by Jurisdiction */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">7. Privacy Rights by Jurisdiction</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">7. Privacy Rights by Jurisdiction</h2>
             
             <div className="space-y-4 text-sm">
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">🇪🇺 GDPR (EU & UK)</p>
+                <p className="font-bold text-slate-100">🇪🇺 GDPR (EU & UK)</p>
                 <p className="mt-2">You have additional rights including: right to access, rectification, erasure, restriction, portability, and objection to processing. Contact: legal@isobench.com</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">🇺🇸 CCPA (California)</p>
+                <p className="font-bold text-slate-100">🇺🇸 CCPA (California)</p>
                 <p className="mt-2">California residents have the right to know, delete, opt-out, and correct personal information. Request via legal@isobench.com with valid ID verification.</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">🇨🇦 PIPEDA (Canada)</p>
+                <p className="font-bold text-slate-100">🇨🇦 PIPEDA (Canada)</p>
                 <p className="mt-2">You have the right to access, correct, and request deletion of personal information. Request via legal@isobench.com</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
-                <p className="font-bold text-slate-900">🗽 Other US States</p>
+                <p className="font-bold text-slate-100">🗽 Other US States</p>
                 <p className="mt-2">Talent Scope Group LLC extends GDPR/CCPA-equivalent rights to all users regardless of location.</p>
               </div>
             </div>
@@ -321,7 +321,7 @@ export default function PrivacyPolicy() {
 
           {/* 8. Cookies & Tracking */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">8. Cookies, Tracking & Analytics</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">8. Cookies, Tracking & Analytics</h2>
             
             <div className="space-y-3 text-sm">
               <p>
@@ -338,7 +338,7 @@ export default function PrivacyPolicy() {
 
           {/* 9. Security & Data Protection */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">9. Data Security Measures</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">9. Data Security Measures</h2>
             
             <div className="space-y-3 text-sm">
               <ul className="list-disc pl-6 space-y-2">
@@ -355,7 +355,7 @@ export default function PrivacyPolicy() {
 
           {/* 10. Children's Privacy */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">10. Children's Privacy</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">10. Children's Privacy</h2>
             <p className="text-sm">
               Talent Scope Group LLC does not knowingly collect data from individuals under 18 years of age. If we discover that a minor has submitted an application, we will delete their data immediately. Candidates must be 18+ to apply.
             </p>
@@ -363,7 +363,7 @@ export default function PrivacyPolicy() {
 
           {/* 11. Changes to Privacy Policy */}
           <section>
-            <h2 className="text-xl font-bold text-slate-900 mb-4">11. Changes to This Privacy Policy</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">11. Changes to This Privacy Policy</h2>
             <p className="text-sm">
               Talent Scope Group LLC may update this Privacy Policy at any time. We will notify you of material changes via email or by updating the "Last Updated" date. Continued use of our service constitutes acceptance of updated terms.
             </p>
@@ -371,12 +371,12 @@ export default function PrivacyPolicy() {
 
           {/* 12. Contact & Data Rights Requests */}
           <section className="border-t border-slate-200 pt-8 mt-8">
-            <h2 className="text-xl font-bold text-slate-900 mb-4">12. Contact Information & Data Subject Rights</h2>
+            <h2 className="text-xl font-bold text-slate-100 mb-4">12. Contact Information & Data Subject Rights</h2>
             <p className="text-sm mb-4">
               For privacy-related inquiries, data access requests, deletion requests, or complaints:
             </p>
             <div className="bg-slate-50 p-6 rounded border border-slate-200">
-              <p className="font-semibold text-slate-900">Talent Scope Group LLC (d/b/a ISO Bench)</p>
+              <p className="font-semibold text-slate-100">Talent Scope Group LLC (d/b/a ISO Bench)</p>
               <p className="text-sm text-slate-700 mt-2">1309 Coffeen Avenue STE 1200</p>
               <p className="text-sm text-slate-700">Sheridan, Wyoming 82801</p>
               <p className="text-sm text-slate-700 mt-3">

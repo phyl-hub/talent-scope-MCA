@@ -5,12 +5,12 @@ const siteUrl = 'https://isobench.com';
 const defaultImage = `${siteUrl}/images/high-energy-sdr-team.jpg`;
 
 export default function SEO({
-  title = 'Remote MCA Outbound Talent | Outbound Funding Specialists | ISO Bench From $1,000/mo',
-  description = 'Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Remote-ready Outbound Funding Specialists. Weekly drops. Sustained dial capacity. Unlimited hires. Zero placement fees.',
+  title = 'Video-Vetted MCA Outbound Talent | Weekly Drops | ISO Bench',
+  description = 'Replace $5K-$20K placement fees with fixed-cost MCA outbound hiring. Weekly drops of video-vetted Outbound Funding Specialists. Unlimited hires. Zero placement fees.',
   path = '/',
   image = defaultImage,
   type = 'website',
-  keywords = 'MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, MCA sales talent, plug and play sales reps, fixed-cost MCA recruiting, dial-pressure resilience, objection handling, MCA floor staffing, MCA talent pipeline, no placement fee recruiting, outbound continuity, commission sales',
+  keywords = 'MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, MCA sales talent, MCA talent sourcing, fixed-cost recruiting, weekly candidate drops, video vetted sales reps, dial-pressure resilience, no placement fee recruiting',
   jsonLd = null,
 }) {
   const url = `${siteUrl}${path}`;

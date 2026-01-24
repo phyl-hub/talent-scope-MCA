@@ -14,7 +14,7 @@ export default function HowItWorks() {
             How ISO Bench Works
           </h2>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-            Running a remote MCA sales team means constant motion. Reps churn. Seats open. Dials drop. Most companies feel this pain too late.
+            Running a high-velocity MCA sales team means constant motion. Reps churn. Seats open. Dials drop. Most companies feel this pain too late.
           </p>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
             ISO Bench exists to solve that operational gap.
@@ -29,7 +29,7 @@ export default function HowItWorks() {
             </div>
             <h3 className="text-xl font-bold text-slate-100 mb-2">Step 1: Source + screen outbound talent</h3>
             <p className="text-slate-300 leading-relaxed mb-4">
-              We continuously source remote Outbound Funding Specialists with experience in high-volume, performance-driven environments. Resumes are secondary. Every candidate completes a short video audition designed to test:
+              We continuously source Outbound Funding Specialists and screen for what matters on a high-velocity floor. Resumes are secondary. Every candidate completes a short video audition designed to test:
             </p>
             <ul className="text-slate-300 text-base space-y-2 mb-4">
               <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Real-time objection handling under rejection pressure</li>
@@ -76,7 +76,7 @@ export default function HowItWorks() {
               <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Hire, trial, or pass</li>
             </ul>
             <p className="text-slate-300 leading-relaxed">
-              You pay a flat monthly subscription for access to the talent flow. No recruiter markups. No per-head fees.
+              You pay a Bench Activation Fee to turn on access, then a flat monthly subscription to keep access active. No recruiter markups. No per-head fees.
             </p>
           </div>
         </div>

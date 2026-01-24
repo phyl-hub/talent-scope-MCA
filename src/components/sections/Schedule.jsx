@@ -17,16 +17,16 @@ export default function Schedule() {
         <div className="max-w-6xl mx-auto px-6">
           <p className="inline-flex items-center gap-2 text-sm font-bold text-emerald-300 bg-emerald-500/10 px-4 py-2 rounded-full mb-5 border border-emerald-500/20">
             <AlertTriangle className="w-4 h-4" />
-            Stop Burning CAC. Capture Your MCA Bench.
+            Stop paying per-hire fees. Keep seats filled.
           </p>
           <h1 className="text-5xl md:text-6xl font-black text-slate-100 mb-5">
-            See This Week's Drop. <span className="text-emerald-400">Dominate Tomorrow.</span>
+            See This Week’s Drop. <span className="text-emerald-400">Hire Faster.</span>
           </h1>
           <p className="text-2xl text-slate-300 mb-4">
             <strong>15 minutes.</strong> We show you this week's Outbound Funding Specialists. You watch the tape. You draft the best.
           </p>
           <p className="text-lg text-slate-400 max-w-2xl">
-            <strong>Hire for grit, not experience.</strong> Industry knowledge is taught in 20 minutes. Dial-pressure resilience isn't. Remote-ready inventory, every Monday.
+            <strong>Hire for grit, not experience.</strong> Industry knowledge is taught in 20 minutes. Dial-pressure resilience isn't. Fresh inventory every Monday.
           </p>
         </div>
       </div>
@@ -52,8 +52,8 @@ export default function Schedule() {
             <div className="flex gap-4">
               <CheckCircle className="w-8 h-8 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-bold text-slate-100 mb-2">Remote-Ready</h3>
-                <p className="text-slate-300">Vetted for tech-readiness and the discipline to hit 300+ dials/day from any location.</p>
+                <h3 className="font-bold text-slate-100 mb-2">Deploy Faster</h3>
+                <p className="text-slate-300">Weekly drops + The Tape means you can shortlist in minutes and move straight to interview/onboarding.</p>
               </div>
             </div>
           </div>

@@ -43,8 +43,8 @@ export default function Credibility() {
         {/* Stats Strip */}
         <div className="mt-10 grid md:grid-cols-3 gap-4 text-sm font-semibold">
           <div className="bg-slate-900/60 text-slate-100 rounded-xl px-4 py-3 flex items-center justify-between border border-slate-800">
-            <span>Avg. time-to-first interview</span>
-            <span className="text-emerald-300">Under 24 hours</span>
+            <span>Speed-to-contact</span>
+            <span className="text-emerald-300">Instant after stacking</span>
           </div>
           <div className="bg-slate-900/40 text-slate-100 rounded-xl px-4 py-3 flex items-center justify-between border border-slate-800">
             <span>Weekly candidate drop</span>
@@ -53,6 +53,26 @@ export default function Credibility() {
           <div className="bg-slate-900/40 text-slate-100 rounded-xl px-4 py-3 flex items-center justify-between border border-slate-800">
             <span>Hiring model</span>
             <span className="font-black">Unlimited hires, flat fee</span>
+          </div>
+        </div>
+
+        {/* Fit Filter */}
+        <div className="mt-6 grid md:grid-cols-2 gap-5">
+          <div className="bg-slate-900/40 border border-slate-800 rounded-2xl p-5">
+            <h3 className="text-lg font-bold text-slate-100 mb-3">Good fit if you…</h3>
+            <ul className="text-slate-300 text-base space-y-2">
+              <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Need to keep seats filled through churn</li>
+              <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Care more about dial behavior than polished resumes</li>
+              <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Want a repeatable pipeline, not one-off recruiting</li>
+            </ul>
+          </div>
+          <div className="bg-slate-900/40 border border-slate-800 rounded-2xl p-5">
+            <h3 className="text-lg font-bold text-slate-100 mb-3">Not a fit if you…</h3>
+            <ul className="text-slate-300 text-base space-y-2">
+              <li className="flex items-start gap-3"><XCircle size={18} className="text-slate-500 flex-shrink-0 mt-0.5" />Want a recruiter to run interviews and negotiate offers</li>
+              <li className="flex items-start gap-3"><XCircle size={18} className="text-slate-500 flex-shrink-0 mt-0.5" />Only hire “perfect resumes” and expect low churn</li>
+              <li className="flex items-start gap-3"><XCircle size={18} className="text-slate-500 flex-shrink-0 mt-0.5" />Need guaranteed headcount or guaranteed performance</li>
+            </ul>
           </div>
         </div>
       </div>

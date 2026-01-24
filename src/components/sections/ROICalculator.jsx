@@ -126,13 +126,17 @@ export default function ROICalculator() {
                 </div>
                 <div className="flex justify-between text-sm border-b border-slate-700 pb-2">
                   <span className="text-slate-400">ISO Bench Subscription</span>
-                  <span className="text-emerald-300 font-bold">From $1,000/mo</span>
+                  <span className="text-emerald-300 font-bold">From $1,000/mo (+ Bench Activation Fee)</span>
                 </div>
                 <div className="flex justify-between text-lg font-bold">
-                  <span className="text-white">Potential Net Profit</span>
+                  <span className="text-white">Potential Net Profit (after $1,000/mo)</span>
                   <span className="text-emerald-300">+${(potentialRevenue - 1000).toLocaleString()}</span>
                 </div>
               </div>
+
+              <p className="text-xs text-slate-500 mt-4 relative z-10">
+                Bench Activation Fee is one-time to start or re-activate access (see Terms).
+              </p>
 
               <div className="mt-8 relative z-10">
                 <a href="/schedule" className="inline-flex items-center justify-center gap-2 w-full bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold py-3 rounded-xl transition shadow-lg shadow-emerald-500/10">
