@@ -74,7 +74,7 @@ export default function Hero() {
                   className="w-12 h-12 rounded-full object-cover ring-2 ring-slate-800"
                 />
                 <div className="text-sm leading-tight">
-                  <div className="text-slate-200 font-bold text-base">"The resume lies. The video doesn't."</div>
+                  <div className="text-slate-200 font-bold text-base">"The resume lies. The Tape doesn't!"</div>
                   <div className="text-slate-500 font-medium">— Philipp Hoffschroer, Founder</div>
                 </div>
               </div>
@@ -98,23 +98,18 @@ export default function Hero() {
                       </div>
                       <span className="text-slate-500 text-[10px] font-mono uppercase">Batch #001-NYM</span>
                    </div>
-                   <div className="text-2xl font-black text-slate-100 italic">"No time right now and anyhow my partner handles the finances."</div>
-                   <div className="text-xs text-slate-400 mt-1">Simulated Objection: Handling brush-offs with tonal authority.</div>
+
+                   <div className="flex items-center justify-between gap-3">
+                     <div className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-slate-300">
+                       <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_0_4px_rgba(52,211,153,0.12)]"></span>
+                       Randomized Flash Objection
+                     </div>
+                     <span className="text-slate-500 text-[10px] font-mono uppercase">Live Moment</span>
+                   </div>
                 </div>
 
                 {/* Scorecard Metrics */}
                 <div className="p-6 space-y-4 bg-slate-900/90">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-slate-950/50 p-3 rounded-lg border border-slate-800">
-                      <div className="text-[10px] text-slate-500 font-bold uppercase mb-1">Pacing & Flow</div>
-                      <div className="text-lg font-black text-emerald-400">8.8/10</div>
-                    </div>
-                    <div className="bg-slate-950/50 p-3 rounded-lg border border-slate-800">
-                      <div className="text-[10px] text-slate-500 font-bold uppercase mb-1">Grit Index</div>
-                      <div className="text-lg font-black text-emerald-400">9.2/10</div>
-                    </div>
-                  </div>
-
                   {/* Candidate Feed */}
                   <div className="pt-4 border-t border-slate-800/50">
                     <div className="flex items-center justify-between mb-4">
@@ -122,15 +117,25 @@ export default function Hero() {
                         <Lock size={14} className="text-slate-500" />
                         Feb 16 Batch Preview
                       </h3>
+                      <div className="hidden sm:flex items-center gap-2">
+                        <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">5 subsections</span>
+                        <div className="flex items-center gap-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400/80" />
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400/80" />
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400/80" />
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400/80" />
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400/80" />
+                        </div>
+                      </div>
                     </div>
                     
                     <div className="space-y-3">
-                      <CandidateRow name="M. Torres (NY)" role="Top Performer" score={8.2} />
+                      <CandidateRow name="Anon #014" score={8.2} />
                       <div className="opacity-40 grayscale blur-[1px]">
-                        <CandidateRow name="S. Miller (Miami)" role="Enterprise Only" score={9.8} />
+                        <CandidateRow name="Anon #027" score={9.8} />
                       </div>
                       <div className="opacity-20 grayscale blur-[2px]">
-                        <CandidateRow name="J. Smith (NY)" role="Vetting in Progress" score={7.5} />
+                        <CandidateRow name="Anon #041" score={7.5} />
                       </div>
                     </div>
                   </div>

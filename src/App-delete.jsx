@@ -91,7 +91,7 @@ function App() {
                   {/* Candidate List */}
                   <div className="space-y-4">
                     <CandidateRow name="Sarah Miller" role="Ent. SDR @ Oracle" score={9.4} />
-                    <CandidateRow name="James Chen" role="Top Performer (SaaS)" score={9.1} />
+                    <CandidateRow name="Anon #001" score={9.1} />
                     <CandidateRow name="Elena Rodriguez" role="BDR Team Lead" score={8.8} />
                   </div>
 
