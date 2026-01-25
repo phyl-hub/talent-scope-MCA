@@ -126,7 +126,7 @@ export default function ROICalculator() {
                 </div>
                 <div className="flex justify-between text-sm border-b border-slate-700 pb-2">
                   <span className="text-slate-400">ISO Bench Subscription</span>
-                  <span className="text-emerald-300 font-bold">From $1,000/mo (+ Bench Activation Fee)</span>
+                  <span className="text-emerald-300 font-bold">From $1,000/mo (+ activation)</span>
                 </div>
                 <div className="flex justify-between text-lg font-bold">
                   <span className="text-white">Potential Net Profit (after $1,000/mo)</span>
@@ -135,12 +135,12 @@ export default function ROICalculator() {
               </div>
 
               <p className="text-xs text-slate-500 mt-4 relative z-10">
-                Bench Activation Fee is one-time to start or re-activate access (see Terms).
+                Activation fee is one-time to start or re-activate access (see Terms).
               </p>
 
               <div className="mt-8 relative z-10">
                 <a href="/schedule" className="inline-flex items-center justify-center gap-2 w-full bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold py-3 rounded-xl transition shadow-lg shadow-emerald-500/10">
-                  Start Your Stack <TrendingUp size={18} />
+                  Apply for Beta Access <TrendingUp size={18} />
                 </a>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function ROICalculator() {
         </div>
 
         <p className="text-center text-slate-400 mt-8 text-sm">
-          <strong className="text-white">Every empty virtual seat is lost dials.</strong> Draft Outbound Funding Specialists today. They're dialing tomorrow.
+          <strong className="text-white">Every empty seat is lost dials.</strong> Draft Outbound Funding Specialists today. They're dialing tomorrow.
         </p>
       </div>
     </section>

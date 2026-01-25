@@ -10,13 +10,13 @@ export default function Footer() {
           {/* Column 1: Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src="/images/iso-bench-logo.png" alt="ISO Bench Logo" className="w-8 h-8 object-contain" />
+              <img src="/images/iso-bench-logo.png" alt="ISO Bench" className="w-8 h-8 object-contain" />
               <span className="text-xl font-bold tracking-tight text-slate-100">
                 ISO Bench
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              <strong className="text-slate-200">Institutional-grade hiring for MCA ISOs.</strong><br />
+              <strong className="text-slate-200">Institutional talent logistics for MCA ISOs.</strong><br />
               Outbound Funding Specialists.
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">&copy; 2026 Talent Scope Group LLC (d/b/a ISO Bench). All rights reserved.</p>
-          <p className="text-slate-500 text-sm font-medium">From $1,000/mo + Bench Activation Fee. Unlimited hires. $0 placement fees.</p>
+          <p className="text-slate-500 text-sm font-medium">From $1,000/mo + activation. Unlimited hires. $0 placement fees.</p>
         </div>
       </div>
     </footer>

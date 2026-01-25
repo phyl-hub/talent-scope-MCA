@@ -13,7 +13,7 @@ export default function Terms() {
       />
       <Navbar />
 
-      <main className="max-w-4xl mx-auto px-6 py-20">
+      <main id="main-content" className="max-w-4xl mx-auto px-6 py-20">
         
         {/* Header */}
         <div className="mb-10 border-b border-slate-800 pb-8">
@@ -35,14 +35,15 @@ export default function Terms() {
           <section className="bg-slate-900/40 border border-emerald-500/20 rounded-xl p-6">
             <h2 className="text-sm font-bold uppercase tracking-wider text-emerald-300 mb-3">Subscription Summary</h2>
             <ul className="grid md:grid-cols-2 gap-3 text-sm text-slate-200">
-              <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Weekly Inventory Drops (Mon @ 9 AM EST — Enterprise Scale / 2 PM EST — Growth Core)</li>
+              <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Strategic Density: NY (Melville/Long Island) + Miami / South Florida</li>
+              <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Inaugural Drop: Monday, Feb 16, 2026</li>
               <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Bench Access via Stacking (20 stacks — Growth Core / 50 stacks — Enterprise Scale)</li>
               <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Month-to-month billing</li>
               <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Cancel anytime</li>
               <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> No Success Fees / No Placement Fees</li>
-              <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> No Placement Protection or performance guarantees</li>
+              <li className="flex items-center gap-2"><span className="w-2 h-rounded-full bg-emerald-400"></span> No Placement Protection or performance guarantees</li>
               <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Pipeline access only; you hire directly</li>
-              <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Activation Fee applies to start or re-activate access</li>
+              <li className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-emerald-400"></span> Activation Fee waived for 5 Beta Partners</li>
             </ul>
           </section>
 
@@ -69,7 +70,7 @@ export default function Terms() {
                 <li><strong>Drop:</strong> The scheduled release of new candidate inventory into the ISO Bench portal for a given plan.</li>
                 <li><strong>The Tape:</strong> A Candidate’s short video audition made available in the portal.</li>
                 <li><strong>Stack / Stacking:</strong> The action of claiming a Candidate into your company’s bench in the portal. Stacking is required to unlock Candidate Data (as defined below).</li>
-                <li><strong>Candidate Data:</strong> Contact and profile details unlocked after stacking (which may include name, email, phone, any optional resume or LinkedIn profile provided by the Candidate, and other Candidate-provided preference fields such as location/time zone, remote/hybrid/in-office preference, relocation willingness, and compensation/engagement preferences).</li>
+                <li><strong>Candidate Data:</strong> Contact and profile details unlocked after stacking (which may include name, email, phone, any optional resume or LinkedIn profile provided by the Candidate, and other Candidate-provided preference fields such as work-style preference, availability window, and compensation/engagement preferences).</li>
                 <li><strong>Elite:</strong> A label used in the portal for Candidates with <strong>Score ≥ 8.5</strong> under ISO Bench’s internal scoring. Elite access is <strong>Enterprise Scale only</strong> and is not available on Growth Core.</li>
                 <li><strong>Rule of 5:</strong> A Candidate may be stacked by up to five (5) distinct Client companies; once the limit is reached the Candidate may be removed from new stacking availability.</li>
               </ul>
@@ -118,7 +119,7 @@ export default function Terms() {
                 <li><strong>No Placement Fees:</strong> While a subscription is Active, the Client may hire unlimited Candidates from their Stacked inventory with $0 per-hire commissions.</li>
                 <li><strong>Billing Cycle:</strong> Subscriptions are billed monthly in advance.</li>
                 <li><strong>Cancellation:</strong> The Client may cancel at any time via the account portal or by emailing billing@isobench.com. Access continues until the end of the current billing period.</li>
-                <li><strong>Weekly Inventory Drops:</strong> New Candidates are released weekly (typically Monday @ 9 AM EST for Enterprise Scale; 2 PM EST for Growth Core). Inventory size and composition may vary.</li>
+                <li><strong>Inventory Drops:</strong> Strategic Density launch: inventory is concentrated in NY and Miami corridors. The inaugural release is Monday, <strong>Feb 16, 2026</strong>. Post-launch, we move to a standard Monday 9 AM (Enterprise) / 2 PM (Growth Core) EST rhythm. Inventory size and composition may vary.</li>
                 <li><strong>Stacking Capacity:</strong> Growth Core includes up to <strong>20</strong> stacks; Enterprise Scale includes up to <strong>50</strong> stacks.</li>
                 <li><strong>Elite Access:</strong> Elite Candidates (Score <strong>≥ 8.5</strong>) are visible/unlockable on <strong>Enterprise Scale only</strong> and are not available on Growth Core.</li>
                 <li><strong>No Placement Protection:</strong> We do not offer replacement guarantees or performance guarantees; the subscription provides pipeline access only.</li>

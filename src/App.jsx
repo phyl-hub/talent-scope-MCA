@@ -26,22 +26,22 @@ function App() {
           <>
             <SEO
               path="/"
-              title="Video-Vetted MCA Outbound Talent | Weekly Drops | From $1,000/mo | ISO Bench"
-              description="Replace $5K-$20K placement fees with fixed-cost MCA outbound hiring. Weekly drops of video-vetted Outbound Funding Specialists. Sustained dial capacity. Zero placement fees."
-              keywords="MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, MCA talent sourcing, fixed-cost MCA recruiting, weekly candidate drops, video vetted sales reps, dial-pressure resilience"
+              title="MCA Outbound Talent | NY & Miami Beta | Inaugural Drop Feb 16, 2026 | ISO Bench"
+              description="Join the Feb 16 Beta: Fixed-cost MCA talent logistics for NY and Miami floors. Video-vetted Outbound Funding Specialists. $2K-$4K activation waived for 5 Beta Partners. Apply now."
+              keywords="MCA recruiting, MCA outbound hiring, outbound funding specialists, NY MCA sales, Miami MCA hiring, dial-pressure resilience, objection handling, commission-only ISO reps, MCA talent pipeline, beta partner"
               type="website"
               jsonLd={{
                 '@context': 'https://schema.org',
                 '@type': 'Product',
-                name: 'ISO Bench: Video-Vetted MCA Outbound Bench',
+                name: 'ISO Bench: MCA Talent Logistics Utility',
                 description:
-                  'Replace $5K-$20K placement fees with fixed-cost MCA outbound hiring. Video-vetted Outbound Funding Specialists for remote, hybrid, or in-office teams. 90-120 second video auditions verify dial-pressure resilience. Unlimited hires. Zero placement fees.',
+                  'Join the Feb 16 Beta: Fixed-cost MCA talent logistics for NY and Miami floors. Video-vetted Outbound Funding Specialists. Activation fee waived for 5 Beta Partners.',
                 brand: {
                   '@type': 'Brand',
                   name: 'ISO Bench',
                 },
                 category: 'Fixed-Cost MCA Recruiting Services',
-                keywords: 'MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, video auditions, dial-pressure resilience, weekly drops',
+                keywords: 'MCA recruiting, outbound funding specialists, NY Miami MCA hiring, dial-pressure resilience, beta partner',
                 offers: {
                   '@type': 'Offer',
                   price: '1000',
@@ -52,7 +52,7 @@ function App() {
                     priceCurrency: 'USD',
                     billingDuration: 'P1M',
                   },
-                  availability: 'https://schema.org/InStock',
+                  availability: 'https://schema.org/PreOrder',
                   url: 'https://isobench.com/',
                   seller: {
                     '@type': 'Organization',
@@ -60,18 +60,14 @@ function App() {
                     url: 'https://isobench.com/',
                   },
                 },
-                areaServed: {
-                  '@type': 'Country',
-                  name: 'United States',
-                },
                 audience: {
                   '@type': 'Audience',
-                  audienceType: 'MCA companies hiring outbound funding specialists',
+                  audienceType: 'MCA companies hiring outbound funding specialists in NY and Miami',
                 },
               }}
             />
             <Navbar />
-            <main>
+            <main id="main-content">
               <Hero />
               <Comparison />
               <HowItWorks />
@@ -96,12 +92,12 @@ function App() {
             <>
               <SEO
                 path="/schedule"
-                title="See This Week's MCA Bench | Watch The Tape | ISO Bench"
-                description="15 minutes. Watch video auditions from Outbound Funding Specialists. Verify dial-pressure resilience and objection handling. Draft the best. Hire faster."
-                keywords="MCA outbound demo, MCA setter demo, MCA sales bench, vetted MCA talent, MCA recruiting, merchant cash advance staffing, outbound funding specialist, video auditions"
+                title="Apply for Feb 16 Beta | MCA Outbound Specialists | NY & Miami | ISO Bench"
+                description="15 minutes. Apply for the Feb 16 Beta. 5 partner spots available. $2K-$4K activation waived + first month free. Strategic Density launch for NY and Miami MCA floors."
+                keywords="MCA outbound demo, MCA setter demo, MCA sales bench, vetted MCA talent, MCA recruiting, merchant cash advance staffing, outbound funding specialist, NY Miami beta"
               />
               <Navbar />
-              <main>
+              <main id="main-content">
                 <Schedule />
               </main>
               <Footer />

@@ -14,7 +14,7 @@ export default function HowItWorks() {
             How ISO Bench Works
           </h2>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-            Running a high-velocity MCA sales team means constant motion. Reps churn. Seats open. Dials drop. Most companies feel this pain too late.
+            Running a high-churn MCA sales team means constant motion. Reps churn. Seats open. Dials drop. Most companies feel this pain too late.
           </p>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
             ISO Bench exists to solve that operational gap.
@@ -29,7 +29,7 @@ export default function HowItWorks() {
             </div>
             <h3 className="text-xl font-bold text-slate-100 mb-2">Step 1: Source + screen outbound talent</h3>
             <p className="text-slate-300 leading-relaxed mb-4">
-              We continuously source Outbound Funding Specialists and screen for what matters on a high-velocity floor. Resumes are secondary. Every candidate completes a short video audition designed to test:
+              We continuously source Outbound Funding Specialists with experience in high-volume, performance-driven environments. Resumes are secondary. Every candidate completes a short video audition designed to test:
             </p>
             <ul className="text-slate-300 text-base space-y-2 mb-4">
               <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Real-time objection handling under rejection pressure</li>
@@ -47,9 +47,9 @@ export default function HowItWorks() {
               <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-300 font-bold text-lg border border-emerald-500/20">02</div>
               <CalendarClock className="w-6 h-6 text-emerald-400" />
             </div>
-            <h3 className="text-xl font-bold text-slate-100 mb-2">Step 2: Weekly inventory drops</h3>
+            <h3 className="text-xl font-bold text-slate-100 mb-2">Step 2: Inaugural inventory release</h3>
             <p className="text-slate-300 leading-relaxed mb-4">
-              Every week, new candidates are released into the ISO Bench portal. You get access to:
+              Batching the first 100+ vetted specialists for a Feb 16 release. Strategic Density: concentrating in NY/Melville and South Florida corridors first. After Feb 16, we move to a standard Monday 9 AM/2 PM EST rhythm.
             </p>
             <ul className="text-slate-300 text-base space-y-2 mb-4">
               <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Outbound Funding Specialists optimized for sustained dial capacity and real-time objection handling</li>
@@ -76,7 +76,7 @@ export default function HowItWorks() {
               <li className="flex items-start gap-3"><CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />Hire, trial, or pass</li>
             </ul>
             <p className="text-slate-300 leading-relaxed">
-              You pay a Bench Activation Fee to turn on access, then a flat monthly subscription to keep access active. No recruiter markups. No per-head fees.
+              You pay an Activation Fee to turn on access, then a flat monthly subscription to keep access active. No recruiter markups. No per-head fees.
             </p>
           </div>
         </div>

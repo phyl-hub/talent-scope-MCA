@@ -5,12 +5,12 @@ const siteUrl = 'https://isobench.com';
 const defaultImage = `${siteUrl}/images/high-energy-sdr-team.jpg`;
 
 export default function SEO({
-  title = 'Video-Vetted MCA Outbound Talent | Weekly Drops | ISO Bench',
-  description = 'Replace $5K-$20K placement fees with fixed-cost MCA outbound hiring. Weekly drops of video-vetted Outbound Funding Specialists. Unlimited hires. Zero placement fees.',
+  title = 'MCA Outbound Talent | Outbound Funding Specialists | ISO Bench From $1,000/mo',
+  description = 'Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Video-vetted Outbound Funding Specialists. Weekly drops. Sustained dial capacity. Unlimited hires. Zero placement fees.',
   path = '/',
   image = defaultImage,
   type = 'website',
-  keywords = 'MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, MCA sales talent, MCA talent sourcing, fixed-cost recruiting, weekly candidate drops, video vetted sales reps, dial-pressure resilience, no placement fee recruiting',
+  keywords = 'MCA outbound hiring, outbound funding specialist, merchant cash advance recruiting, MCA sales talent, plug and play sales reps, fixed-cost MCA recruiting, dial-pressure resilience, objection handling, MCA floor staffing, MCA talent pipeline, no placement fee recruiting, outbound continuity, commission sales',
   jsonLd = null,
 }) {
   const url = `${siteUrl}${path}`;
@@ -31,7 +31,6 @@ export default function SEO({
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
       <meta property="og:site_name" content="ISO Bench" />
-      <meta property="og:locale" content="en_US" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -43,8 +42,6 @@ export default function SEO({
       <meta name="theme-color" content="#0f172a" />
 
       {/* Additional SEO meta tags */}
-      <meta name="geo.region" content="US" />
-      <meta name="geo.placename" content="United States" />
       <meta name="language" content="English" />
 
       {jsonLd && (

@@ -69,7 +69,7 @@ export default function Comparison() {
           <div className="flex items-center justify-between border-b border-slate-800 pb-4 relative z-10">
             <div>
               <p className="text-xs font-bold uppercase tracking-wider text-emerald-300">ISO Bench</p>
-              <p className="text-sm text-slate-300">Fixed-cost bench for outbound hiring.</p>
+              <p className="text-sm text-slate-300">Revenue-first talent logistics.</p>
             </div>
             <CheckCircle className="w-6 h-6 text-emerald-400" />
           </div>
@@ -78,15 +78,15 @@ export default function Comparison() {
             <div className="flex items-start gap-3">
               <DollarSign className="w-5 h-5 text-emerald-400 mt-0.5" />
               <div>
-                <p className="font-semibold text-white">$1,000–$1,800/mo + Bench Activation Fee. Unlimited hires.</p>
+                <p className="font-semibold text-white">$1,000–$1,800/mo + Activation. Unlimited hires.</p>
                 <p className="text-sm text-slate-300">Fixed cost access insurance for constant turnover. CAC stays predictable.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Timer className="w-5 h-5 text-emerald-400 mt-0.5" />
               <div>
-                <p className="font-semibold text-white">Weekly drops + bench depth.</p>
-                <p className="text-sm text-slate-300">Continuous inventory so you can replace churn fast without restarting a recruiter cycle.</p>
+                <p className="font-semibold text-white">Operationally Ready Inventory.</p>
+                <p className="text-sm text-slate-300">Vetted for tech readiness and CRM execution—so you eliminate downtime.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">

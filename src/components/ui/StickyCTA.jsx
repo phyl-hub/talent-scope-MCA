@@ -35,13 +35,13 @@ export default function StickyCTA() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
-              <p className="text-xs font-bold text-emerald-300 uppercase tracking-wider">Weekly Drops: Every Monday</p>
+            <p className="text-xs font-bold text-emerald-300 uppercase tracking-wider">Strategic Density: NY + Miami</p>
           </div>
           <p className="font-bold text-sm md:text-base text-slate-100">
-            Weekly drop: Monday @ 9 AM & 2 PM EST.
+            Inaugural Drop: Monday, Feb 16, 2026.
           </p>
           <p className="text-xs text-slate-400">
-            From $1,000/mo + Bench Activation Fee.
+            $2K–$4K Activation Fee waived + first month free for 5 Beta Partners.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function StickyCTA() {
             to="/schedule" 
             className="bg-emerald-400 hover:bg-emerald-300 text-slate-950 text-sm font-bold px-5 py-2.5 rounded-lg transition shadow-lg shadow-emerald-500/10 flex items-center gap-2 whitespace-nowrap"
           >
-            Start Your Stack <ArrowRight size={16} />
+            Apply for Beta Access <ArrowRight size={16} />
           </Link>
           <button 
             onClick={() => setIsClosed(true)}

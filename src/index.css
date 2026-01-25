@@ -14,3 +14,19 @@ body {
   background-color: #020617; /* slate-950 */
   color: #e2e8f0; /* slate-200 */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure anchored sections aren't hidden behind the sticky navbar */
+section[id],
+main[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* Keyboard focus visibility */
+:focus-visible {
+  outline: 2px solid #34d399; /* emerald-400 */
+  outline-offset: 3px;
+}

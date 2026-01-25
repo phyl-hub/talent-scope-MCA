@@ -17,16 +17,16 @@ export default function Schedule() {
         <div className="max-w-6xl mx-auto px-6">
           <p className="inline-flex items-center gap-2 text-sm font-bold text-emerald-300 bg-emerald-500/10 px-4 py-2 rounded-full mb-5 border border-emerald-500/20">
             <AlertTriangle className="w-4 h-4" />
-            Stop paying per-hire fees. Keep seats filled.
+            Stop Burning CAC. Capture Your MCA Bench.
           </p>
           <h1 className="text-5xl md:text-6xl font-black text-slate-100 mb-5">
-            See This Week’s Drop. <span className="text-emerald-400">Hire Faster.</span>
+            Apply for the Feb 16 Beta. <span className="text-emerald-400">5 Partner Spots.</span>
           </h1>
           <p className="text-2xl text-slate-300 mb-4">
-            <strong>15 minutes.</strong> We show you this week's Outbound Funding Specialists. You watch the tape. You draft the best.
+            <strong>15 minutes.</strong> We walk you through the inaugural batch. You help us calibrate the filter. You get priority access + waived activation.
           </p>
           <p className="text-lg text-slate-400 max-w-2xl">
-            <strong>Hire for grit, not experience.</strong> Industry knowledge is taught in 20 minutes. Dial-pressure resilience isn't. Fresh inventory every Monday.
+            <strong>Strategic Density:</strong> Concentrating in NY/Melville and South Florida corridors to meet local floor standards. Inaugural Drop: Monday, Feb 16, 2026.
           </p>
         </div>
       </div>
@@ -38,8 +38,8 @@ export default function Schedule() {
             <div className="flex gap-4">
               <Calendar className="w-8 h-8 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-bold text-slate-100 mb-2">15-Minute Walkthrough</h3>
-                <p className="text-slate-300">See this week's MCA bench—Outbound Funding Specialists vetted for sustained dial capacity and objection handling.</p>
+                <h3 className="font-bold text-slate-100 mb-2">15-Minute Beta Briefing</h3>
+                <p className="text-slate-300">Learn how the Feb 16 batch is being curated. No sales pitch—just an operator walkthrough.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -52,8 +52,8 @@ export default function Schedule() {
             <div className="flex gap-4">
               <CheckCircle className="w-8 h-8 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-bold text-slate-100 mb-2">Deploy Faster</h3>
-                <p className="text-slate-300">Weekly drops + The Tape means you can shortlist in minutes and move straight to interview/onboarding.</p>
+                <h3 className="font-bold text-slate-100 mb-2">Operationally Ready</h3>
+                <p className="text-slate-300">Vetted for tech readiness and the discipline to hit 300+ dials/day inside your CRM.</p>
               </div>
             </div>
           </div>
