@@ -85,7 +85,7 @@ export default function Schedule() {
       <div className="bg-white py-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <p className="text-slate-600 mb-4">
-            Can't find a time? Email <a href="mailto:hello@talent-scope.io" className="text-blue-600 hover:underline font-bold">hello@talent-scope.io</a>
+            Can't find a time? Email <a href="mailto:hello@talent-scope.com" className="text-blue-600 hover:underline font-bold">hello@talent-scope.com</a>
           </p>
         </div>
       </div>

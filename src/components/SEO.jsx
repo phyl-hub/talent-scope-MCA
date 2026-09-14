@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const siteUrl = 'https://talent-scope.io';
+const siteUrl = 'https://talent-scope.com';
 const defaultImage = `${siteUrl}/images/high-energy-sdr-team.jpg`;
 
 export default function SEO({
@@ -47,9 +47,13 @@ export default function SEO({
       <meta name="geo.placename" content="United States" />
       <meta name="language" content="English" />
 
-      {jsonLd && (
+      {jsonLd && Array.isArray(jsonLd) ? (
+        jsonLd.map((entry, i) => (
+          <script key={i} type="application/ld+json">{JSON.stringify(entry)}</script>
+        ))
+      ) : jsonLd ? (
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-      )}
+      ) : null}
     </Helmet>
   );
 }

@@ -247,7 +247,7 @@ export default function PrivacyPolicy() {
               <div>
                 <h3 className="font-bold text-slate-900 mb-2">5.2 Right to Deletion (Right to be Forgotten)</h3>
                 <p className="mb-2">
-                  You may request deletion of your personal data at any time by emailing legal@talent-scope.io. We will:
+                  You may request deletion of your personal data at any time by emailing legal@talent-scope.com. We will:
                 </p>
                 <ul className="list-disc pl-6 space-y-1 mb-3">
                   <li>Delete your profile from the active "Weekly Menu" within 5 business days</li>
@@ -262,7 +262,7 @@ export default function PrivacyPolicy() {
               <div>
                 <h3 className="font-bold text-slate-900 mb-2">5.3 Right to Data Portability</h3>
                 <p>
-                  You may request a machine-readable copy of your personal data in CSV or JSON format. Request via legal@talent-scope.io.
+                  You may request a machine-readable copy of your personal data in CSV or JSON format. Request via legal@talent-scope.com.
                 </p>
               </div>
             </div>
@@ -287,7 +287,7 @@ export default function PrivacyPolicy() {
               </div>
 
               <p>
-                <strong>How to Request:</strong> Email legal@talent-scope.io with your name and original submission date. We will respond within 30 days with details about your AI scores and the ability to appeal.
+                <strong>How to Request:</strong> Email legal@talent-scope.com with your name and original submission date. We will respond within 30 days with details about your AI scores and the ability to appeal.
               </p>
             </div>
           </section>
@@ -299,17 +299,17 @@ export default function PrivacyPolicy() {
             <div className="space-y-4 text-sm">
               <div className="border-l-4 border-blue-500 pl-4">
                 <p className="font-bold text-slate-900">🇪🇺 GDPR (EU & UK)</p>
-                <p className="mt-2">You have additional rights including: right to access, rectification, erasure, restriction, portability, and objection to processing. Contact: legal@talent-scope.io</p>
+                <p className="mt-2">You have additional rights including: right to access, rectification, erasure, restriction, portability, and objection to processing. Contact: legal@talent-scope.com</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
                 <p className="font-bold text-slate-900">🇺🇸 CCPA (California)</p>
-                <p className="mt-2">California residents have the right to know, delete, opt-out, and correct personal information. Request via legal@talent-scope.io with valid ID verification.</p>
+                <p className="mt-2">California residents have the right to know, delete, opt-out, and correct personal information. Request via legal@talent-scope.com with valid ID verification.</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
                 <p className="font-bold text-slate-900">🇨🇦 PIPEDA (Canada)</p>
-                <p className="mt-2">You have the right to access, correct, and request deletion of personal information. Request via legal@talent-scope.io</p>
+                <p className="mt-2">You have the right to access, correct, and request deletion of personal information. Request via legal@talent-scope.com</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
@@ -379,8 +379,12 @@ export default function PrivacyPolicy() {
               <p className="font-semibold text-slate-900">Talent Scope Group LLC</p>
               <p className="text-sm text-slate-700 mt-2">1309 Coffeen Avenue STE 1200</p>
               <p className="text-sm text-slate-700">Sheridan, Wyoming 82801</p>
+              <p className="text-sm text-slate-700">United States of America</p>
               <p className="text-sm text-slate-700 mt-3">
-                <a href="mailto:legal@talent-scope.io" className="text-blue-600 hover:text-blue-800">legal@talent-scope.io</a>
+                <a href="tel:+13074290181" className="text-blue-600 hover:text-blue-800">+1 (307) 429-0181</a>
+              </p>
+              <p className="text-sm text-slate-700 mt-1">
+                <a href="mailto:legal@talent-scope.com" className="text-blue-600 hover:text-blue-800">legal@talent-scope.com</a>
               </p>
               <p className="text-sm text-slate-600 mt-4 italic">
                 Response time: 30 days for all data requests per GDPR/CCPA standards.

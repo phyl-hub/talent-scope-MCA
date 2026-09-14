@@ -63,7 +63,7 @@ export default function Terms() {
               <li><strong>Flat Fee:</strong> Access to the logistics utility starts at <strong>$1,000 USD per month</strong> (Growth Core) or <strong>$1,800 USD per month</strong> (Enterprise Scale).</li>
               <li><strong>No Success Fees:</strong> We do not charge placement fees, commissions, or percentages of candidate salaries.</li>
               <li><strong>Billing Cycle:</strong> Subscriptions are billed monthly in advance.</li>
-              <li><strong>Cancellation:</strong> You may cancel your subscription at any time via your account portal or by emailing billing@talent-scope.io. Access continues until the end of the current billing period.</li>
+              <li><strong>Cancellation:</strong> You may cancel your subscription at any time via your account portal or by emailing billing@talent-scope.com. Access continues until the end of the current billing period.</li>
               <li><strong>Unlimited Bench Access:</strong> Stack and maintain continuous access to candidates in your portal.</li>
               <li><strong>Weekly Inventory Drops:</strong> New candidates are released weekly (typically Monday @ 9 AM EST for Enterprise Scale — priority access to the <strong>Top 10% Elite Batch</strong>; 2 PM EST for Growth Core — <strong>Standard Batch</strong>).</li>
               <li><strong>Month-to-month:</strong> Cancel anytime. No long-term contracts.</li>
@@ -121,7 +121,9 @@ export default function Terms() {
               Talent Scope Group LLC<br />
               1309 Coffeen Avenue STE 1200<br />
               Sheridan, Wyoming 82801<br />
-              <a href="mailto:legal@talent-scope.io" className="text-blue-600 hover:underline">legal@talent-scope.io</a>
+              United States of America<br />
+              <a href="tel:+13074290181" className="text-blue-600 hover:underline">+1 (307) 429-0181</a><br />
+              <a href="mailto:legal@talent-scope.com" className="text-blue-600 hover:underline">legal@talent-scope.com</a>
             </p>
           </section>
 

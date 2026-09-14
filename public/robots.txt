@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://talent-scope.io/sitemap.xml
+Sitemap: https://talent-scope.com/sitemap.xml
 
 # Crawl delay (optional, adjust if needed)
 Crawl-delay: 1

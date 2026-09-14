@@ -1,5 +1,23 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+
+// Plain-text versions of the answers below, used for FAQPage structured data.
+// Keep in sync with the `faqs` array's JSX `answer` content.
+const faqSchemaText = [
+  "Your subscription provides continuous, unlimited access to your Outbound Inventory. It's a fixed-cost logistics utility designed to protect your LTV/CAC ratio. The Drop (Weekly Inventory Drops): Weekly delivery of 2–4 (Growth Core: Standard Batch, Monday at 2 PM EST) or 5–8 (Enterprise Scale: Priority access to Top 10% Elite Batch, Monday at 9 AM EST) Outbound Funding Specialists. The Tape: Mandatory 90–120s video auditions (\"The Tape Don't Lie\") assessed against our Core 5: Revenue Resilience (30%), Communication Fluency & Pacing (20%), Executive Presence & Authority (20%), Incentive Alignment (20%), Operational Readiness (10%). Unlimited Hires: Hire as many reps as you need with $0 placement fees. Billing: Month-to-month. Cancel anytime.",
+  "No. We are a Logistics Utility for the Virtual MCA Floor. Recruiters charge $5K–$20K per hire, a variable cost that spikes your CAC and destroys unit economics on turnover. Our model delivers an unlimited, continuous supply of pre-vetted remote inventory starting at $1,000/mo. Your talent supply cost becomes predictable and marginal, safeguarding your LTV/CAC ratio.",
+  "Stacking builds operational insurance. Your industry loses 50% of reps every quarter. Candidates remain on your bench for up to 30 days. After four weekly drops, your bench typically grows to 8–16 (Growth Core) or 20–32 (Enterprise Scale) Outbound Funding Specialists. When turnover hits, you draft a replacement instantly. Result: your dials never stop and your CAC stays fixed, replacement costs are marginal instead of a $5K–$20K spike.",
+  "Unlimited Bench Access: Stack as many Outbound Funding Specialists on your bench as you need. Every week, we drop fresh inventory, 2–4 candidates (Growth Core) or 5–8 candidates (Enterprise Scale), directly into your portal. Your bench capacity grows consistently. 8–16 candidates on your bench after 4 weeks (Growth Core) gives you operational insurance: when a rep quits, you draft a replacement instantly. No placement fees. No per-head costs. No downtime. The subscription provides continuous access to inventory; you control hiring decisions and deployment.",
+  "We vet for sustained dial capacity and real-time objection handling under rejection pressure, not resume fluff. In high-velocity MCA outbound, dial-pressure resilience and objection-handling speed are the primary assets, industry knowledge is secondary. Each candidate records a 90–120s audition and is scored on our 5-Point Scorecard: Revenue Resilience (30%), Communication Fluency & Pacing (20%), Executive Presence & Authority (20%), Incentive Alignment (20%), Operational Readiness (10%). We prioritize thick-skinned candidates over those with finance degrees. We can teach MCA in 20 minutes, we can't teach grit.",
+  "We guarantee the pipeline, not individual performance. Our value makes turnover an irrelevant financial cost. If a rep quits, you draft the next pre-vetted top performer from your bench, no fees, no downtime. That's the operational insurance we provide.",
+  "Talent Scope is your Fixed-Cost MCA Talent Logistics Utility, focused on delivering Remote-Ready Outbound Funding Specialists. Final compliance remains the client's responsibility: background checks, required disclosures, and employment verification. This division of labor keeps talent costs fixed and low while preserving operational control.",
+  "Outbound Funding Specialists are remote-ready. Vetted for tech-readiness, unshakeable phone presence, sustained dial capacity, and the discipline to hit 300+ dials a day from any location. The industry churns too fast to wait for the \"perfect\" candidate who knows your specific underwriting box. Hire for energy and grit, then point them at the dialer.",
+  "We specialize exclusively in Merchant Cash Advance (MCA). High-turnover, high-velocity virtual sales floors that need Outbound Funding Specialists with sustained dial capacity and real-time objection handling skills.",
+  "Outbound Funding Specialists need minimal industry knowledge (10%). They slay gatekeepers, handle objections under rejection pressure, and scrub leads, they don't need to explain factor rates. We can teach them what MCA is in 20 minutes. We source commission-hungry outbound specialists from high-stress, short-cycle sales environments (Debt Settlement, Solar, Insurance) who thrive under dial pressure.",
+  "Yes. We specialize in remote-first reps. Every candidate is vetted for tech-readiness, unshakeable phone presence, and the discipline to hit 300+ dials a day. We source global talent with near-native English who work US hours and understand MCA products, business owner psychology, and funding urgency.",
+];
+
 const faqs = [
   {
     id: 'faq-subscription',
@@ -172,8 +190,24 @@ export default function FAQ() {
     setOpenIndex(openIndex === index ? -1 : index);
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq, i) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faqSchemaText[i] || '',
+      },
+    })),
+  };
+
   return (
     <section id="faq" className="py-24 bg-white">
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
+      </Helmet>
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
@@ -206,10 +240,10 @@ export default function FAQ() {
         <div className="text-center mt-12">
           <p className="text-slate-500 mb-4">Still have questions?</p>
           <a
-            href="mailto:sales@talent-scope.io"
+            href="mailto:sales@talent-scope.com"
             className="text-amber-600 font-semibold hover:text-amber-700 transition-colors duration-200"
           >
-            sales@talent-scope.io →
+            sales@talent-scope.com →
           </a>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function Navbar() {
         {/* Logo - Always goes to Home */}
         <Link to="/" className="flex items-center gap-2">
           {/* Use the public folder path */}
-          <img src="/images/talent-scope-logo.png" alt="Talent Scope Logo" className="w-8 h-8 object-contain" />
+          <img src="/images/talent-scope-logo.png" alt="Talent Scope Logo" width="32" height="32" className="w-8 h-8 object-contain" />
           <span className="text-xl font-bold tracking-tight text-slate-900">Talent Scope</span>
         </Link>
         

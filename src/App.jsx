@@ -30,40 +30,83 @@ function App() {
               description="Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Remote-ready Outbound Funding Specialists. Weekly drops. Sustained dial capacity. Zero placement fees."
               keywords="remote MCA recruiting, virtual MCA sales floor, pre-vetted remote MCA talent, commission-only ISO reps, remote MCA appointment setters, outbound funding specialists, virtual high-volume dialers, dial-pressure resilience, outbound continuity"
               type="website"
-              jsonLd={{
-                '@context': 'https://schema.org',
-                '@type': 'Product',
-                name: 'Talent Scope: Remote MCA Talent Logistics Utility',
-                description:
-                  'Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Remote-ready Outbound Funding Specialists. 90-120 second video auditions verify dial-pressure resilience. Unlimited hires. Zero placement fees.',
-                brand: {
-                  '@type': 'Brand',
+              jsonLd={[
+                {
+                  '@context': 'https://schema.org',
+                  '@type': 'Organization',
+                  '@id': 'https://talent-scope.com/#organization',
                   name: 'Talent Scope Group LLC',
-                },
-                category: 'Fixed-Cost MCA Recruiting Services',
-                keywords: 'remote MCA recruiting, virtual MCA sales floor, outbound funding specialists, dial-pressure resilience, outbound continuity',
-                offers: {
-                  '@type': 'Offer',
-                  price: '1000',
-                  priceCurrency: 'USD',
-                  priceSpecification: {
-                    '@type': 'UnitPriceSpecification',
-                    price: '1000',
-                    priceCurrency: 'USD',
-                    billingDuration: 'P1M',
+                  alternateName: 'Talent Scope',
+                  url: 'https://talent-scope.com/',
+                  logo: 'https://talent-scope.com/images/talent-scope-logo.png',
+                  sameAs: ['https://www.linkedin.com/company/talent-scope-group/'],
+                  address: {
+                    '@type': 'PostalAddress',
+                    streetAddress: '1309 Coffeen Avenue, STE 1200',
+                    addressLocality: 'Sheridan',
+                    addressRegion: 'WY',
+                    postalCode: '82801',
+                    addressCountry: 'US',
                   },
-                  availability: 'https://schema.org/InStock',
-                  url: 'https://talent-scope.io/',
+                  telephone: '+1-307-429-0181',
+                  email: 'sales@talent-scope.com',
                 },
-                areaServed: {
-                  '@type': 'Country',
-                  name: 'United States',
+                {
+                  '@context': 'https://schema.org',
+                  '@type': 'Service',
+                  name: 'Talent Scope: Remote MCA Talent Logistics Utility',
+                  description:
+                    'Replace $5K-$20K placement fees with fixed-cost MCA talent logistics. Remote-ready Outbound Funding Specialists. 90-120 second video auditions verify dial-pressure resilience. Unlimited hires. Zero placement fees.',
+                  serviceType: 'MCA Outbound Sales Talent Staffing',
+                  category: 'Fixed-Cost MCA Recruiting Services',
+                  keywords: 'remote MCA recruiting, virtual MCA sales floor, outbound funding specialists, dial-pressure resilience, outbound continuity',
+                  provider: {
+                    '@id': 'https://talent-scope.com/#organization',
+                  },
+                  areaServed: {
+                    '@type': 'Country',
+                    name: 'United States',
+                  },
+                  audience: {
+                    '@type': 'Audience',
+                    audienceType: 'MCA companies hiring remote outbound funding specialists',
+                  },
+                  hasOfferCatalog: {
+                    '@type': 'OfferCatalog',
+                    name: 'Talent Scope Subscription Tiers',
+                    itemListElement: [
+                      {
+                        '@type': 'Offer',
+                        name: 'Growth Core',
+                        price: '1000',
+                        priceCurrency: 'USD',
+                        priceSpecification: {
+                          '@type': 'UnitPriceSpecification',
+                          price: '1000',
+                          priceCurrency: 'USD',
+                          billingDuration: 'P1M',
+                        },
+                        availability: 'https://schema.org/InStock',
+                        url: 'https://talent-scope.com/',
+                      },
+                      {
+                        '@type': 'Offer',
+                        name: 'Enterprise Scale',
+                        price: '1800',
+                        priceCurrency: 'USD',
+                        priceSpecification: {
+                          '@type': 'UnitPriceSpecification',
+                          price: '1800',
+                          priceCurrency: 'USD',
+                          billingDuration: 'P1M',
+                        },
+                        availability: 'https://schema.org/InStock',
+                        url: 'https://talent-scope.com/',
+                      },
+                    ],
+                  },
                 },
-                audience: {
-                  '@type': 'Audience',
-                  audienceType: 'MCA companies hiring remote outbound funding specialists',
-                },
-              }}
+              ]}
             />
             <Navbar />
             <main>
