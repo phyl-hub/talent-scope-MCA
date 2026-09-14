@@ -69,11 +69,16 @@ export default function Hero() {
 
             {/* Main Video Card */}
             <div className="absolute top-0 right-0 w-[420px] h-[300px] rounded-2xl overflow-hidden shadow-2xl shadow-slate-200 z-0 transform rotate-2 hover:rotate-0 transition duration-500 group cursor-pointer border border-slate-100">
-              <img 
-                src="/images/high-energy-sdr-team.jpg" 
-                alt="Remote financial services sales floor"
-                className="w-full h-full object-cover group-hover:scale-105 transition duration-700 filter brightness-95"
-              />
+              <picture>
+                <source srcSet="/images/high-energy-sdr-team.webp" type="image/webp" />
+                <img
+                  src="/images/high-energy-sdr-team.jpg"
+                  alt="Remote financial services sales floor"
+                  width={1024}
+                  height={559}
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-700 filter brightness-95"
+                />
+              </picture>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-16 h-16 bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/50 shadow-lg group-hover:scale-110 transition">
                   <Play size={32} fill="white" className="text-white ml-1" />
@@ -84,7 +89,7 @@ export default function Hero() {
             {/* Floating Bench UI */}
             <div className="absolute bottom-12 left-0 w-[380px] z-10">
               <div className="bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-slate-100 p-6 -rotate-1 hover:rotate-0 transition duration-500">
-                
+
                 {/* Header of Card */}
                 <div className="flex justify-between items-center mb-6 pb-4 border-b border-slate-50">
                   <div className="flex gap-1.5">
@@ -98,10 +103,14 @@ export default function Hero() {
                   </div>
                 </div>
 
+                <p className="text-[11px] text-slate-400 italic mb-3">
+                  Sample profiles, for illustration
+                </p>
+
                 {/* Candidate List */}
                 <div className="space-y-3 relative">
                   <CandidateRow name="Marcus Torres" role="Outbound Specialist • Bilingual" score={8.1} />
-                  
+
                   {/* Active Candidate with Popover */}
                   <div className="relative">
                     <CandidateRow name="Jordan Mills" role="Outbound Specialist • 4yr Exp" score={9.5} />
@@ -112,16 +121,28 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          
+
           {/* Mobile Fallback */}
           <div className="lg:hidden space-y-6">
             <div className="relative rounded-xl overflow-hidden shadow-lg border border-slate-100">
-              <img src="/images/high-energy-sdr-team.jpg" className="w-full h-48 object-cover" alt="MCA sales floor" />
+              <picture>
+                <source srcSet="/images/high-energy-sdr-team.webp" type="image/webp" />
+                <img
+                  src="/images/high-energy-sdr-team.jpg"
+                  className="w-full h-48 object-cover"
+                  alt="MCA sales floor"
+                  width={1024}
+                  height={559}
+                />
+              </picture>
               <div className="absolute inset-0 flex items-center justify-center bg-black/10">
                 <Play size={40} fill="white" className="text-white" />
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-xl border border-slate-100 p-6">
+              <p className="text-[11px] text-slate-400 italic mb-3">
+                Sample profiles, for illustration
+              </p>
               <CandidateRow name="Marcus Torres" role="Outbound Specialist • 5yr Exp" score={9.8} />
               <CandidateRow name="Jordan Mills" role="Outbound Specialist • High Volume" score={9.4} />
             </div>
