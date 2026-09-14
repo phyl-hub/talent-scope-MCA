@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Not used - this project deploys via GitHub -> Vercel, not Firebase
+.firebase
+firebase-debug.log
+.firebaserc
+firebase.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
