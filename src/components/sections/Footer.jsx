@@ -24,7 +24,7 @@ export default function Footer() {
               1309 Coffeen Avenue, STE 1200<br />
               Sheridan, WY 82801<br />
               United States<br />
-              <a href="tel:+13074290181" className="hover:text-blue-600 transition duration-200">+1 (307) 429-0181</a>
+              <a href="tel:+12532438388" className="hover:text-blue-600 transition duration-200">+1 (253) 243-8388</a>
             </address>
           </div>
 

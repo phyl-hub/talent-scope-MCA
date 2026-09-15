@@ -122,7 +122,7 @@ export default function Terms() {
               1309 Coffeen Avenue STE 1200<br />
               Sheridan, Wyoming 82801<br />
               United States of America<br />
-              <a href="tel:+13074290181" className="text-blue-600 hover:underline">+1 (307) 429-0181</a><br />
+              <a href="tel:+12532438388" className="text-blue-600 hover:underline">+1 (253) 243-8388</a><br />
               <a href="mailto:legal@talent-scope.com" className="text-blue-600 hover:underline">legal@talent-scope.com</a>
             </p>
           </section>

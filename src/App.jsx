@@ -48,7 +48,7 @@ function App() {
                     postalCode: '82801',
                     addressCountry: 'US',
                   },
-                  telephone: '+1-307-429-0181',
+                  telephone: '+1-253-243-8388',
                   email: 'sales@talent-scope.com',
                 },
                 {

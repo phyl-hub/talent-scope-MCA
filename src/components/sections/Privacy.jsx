@@ -381,7 +381,7 @@ export default function PrivacyPolicy() {
               <p className="text-sm text-slate-700">Sheridan, Wyoming 82801</p>
               <p className="text-sm text-slate-700">United States of America</p>
               <p className="text-sm text-slate-700 mt-3">
-                <a href="tel:+13074290181" className="text-blue-600 hover:text-blue-800">+1 (307) 429-0181</a>
+                <a href="tel:+12532438388" className="text-blue-600 hover:text-blue-800">+1 (253) 243-8388</a>
               </p>
               <p className="text-sm text-slate-700 mt-1">
                 <a href="mailto:legal@talent-scope.com" className="text-blue-600 hover:text-blue-800">legal@talent-scope.com</a>
